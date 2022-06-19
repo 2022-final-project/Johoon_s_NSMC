@@ -1,0 +1,4 @@
+select c9 sum c14 c15 c33 c36 from t1 t4 t2 where c7 and c1 c30 and c9 c29 and c33 date and c19 date group by c9 c33 c36 order by desc c33 asc 
+select avg c14 from t2 t5 t6 where c19 date and c38 c54 and c38 c10 and c41 like and c44 and c13 select avg c13 from t2 where c10 c38 
+select c52 c48 c26 c38 c40 c49 c51 c53 from t5 t8 t6 t3 where c38 c54 and c47 c55 and c43 and c42 like and c50 c25 and c43 and and c57 select min c57 from t6 t3 t7 t8 where c38 c54 and c47 c55 and c50 c25 and c27 c59 and c60 order by c52 c26 c48 c38 
+select c9 sum c14 c15 count c33 from t1 t4 t2 where c7 and c1 c30 and c9 c29 and c33 date group by c9 c33 order by desc c33 asc 

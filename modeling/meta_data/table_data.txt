@@ -1,0 +1,8 @@
+customer t1
+lineitem t2
+nation t3
+orders t4
+part t5
+partsupp t6
+region t7
+supplier t8
