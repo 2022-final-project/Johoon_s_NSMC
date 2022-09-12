@@ -7,9 +7,9 @@ column_dic = []
 
 class Augmentation:
     def __init__(self):
-        self.sr_rate = 1.0
+        self.sr_rate = 0.9
+        self.rs_rate = 0.9
         self.big_aug = True
-        self.rs_rate = 1.0
 
         self.sr_augment()
         self.rs_augment()
