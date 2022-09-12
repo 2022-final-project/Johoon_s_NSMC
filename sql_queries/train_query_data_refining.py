@@ -186,6 +186,16 @@ class query_data_refining:
         q = open('./sql_queries/temp/refined_train_queries3.txt', 'r')
         w = open('./modeling/vocab.txt', 'w')
 
+        table_list = []
+        column_list = []
+
+        for key, value in table_dic.items():
+            table_list.append(value)
+        for key, value in column_dic.items():
+            column_list.append(value)
+
+        print(table_list)
+
         while True:
             query = q.readline()
 
@@ -195,10 +205,11 @@ class query_data_refining:
             word_list = query.split()
 
             for idx, word in enumerate(word_list):
-                if word not in self.vocab_dic:
-                    self.vocab_dic[word] = 1
-                else:
-                    self.vocab_dic[word] += 1
+                if word in using_sql_word or word in table_list or word in column_list:
+                    if word not in self.vocab_dic:
+                        self.vocab_dic[word] = 1
+                    else:
+                        self.vocab_dic[word] += 1
 
         self.vocab_dic = sorted(self.vocab_dic.items(), 
                                 reverse = True, 
