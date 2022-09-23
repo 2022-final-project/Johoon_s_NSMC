@@ -172,12 +172,12 @@ def flat_accuracy(preds, labels):
 
     return cnt / total_cnt
 
+
 # accuracy를 구하는 function 2 이다.
 ''' target label    == [1, 1, 0, 1, 0, 0]
     predicted label == [0, 1, 1, 1, 0, 1]
     이라면 이 set에 대한 accuracy는 50%이다.
 '''
-
 def flat_exact_accuracy(preds, labels):
     cnt_exact = 0
     cnt = 0
