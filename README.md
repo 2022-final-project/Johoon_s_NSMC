@@ -14,7 +14,7 @@
 
 2. <U>**22개의 Query 이외에 학습을 위한 추가적인 Query 제작**</U>
 
-3. <U>**Query data preprocessing**</U>
+3. <U>**Query data preprocessing, Tokenizer 구현**</U>
    - `train_query_data_refining.py`
    - 학습을 시키기 위해서 Query data의 정제가 필요
    - Ex) 
@@ -38,7 +38,5 @@
       ORDER BY c1 ASC
       ```
      - 정제시 사용할 단어들을 미리 list로 구현
-4. <U>**Tokenizing을 위한 vocab.txt를 제작하는 python source 구현**</U>
-   - `train_query_data_refining.py`
-   - 내장된 Tokenizer를 사용하는 방법 보단 직접 구현
-   - 
+
+4. 
