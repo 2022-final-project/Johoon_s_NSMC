@@ -91,3 +91,6 @@
           |`[1, 1, 0, 1, 0, 0]`|`[0, 1, 0, 0, 1, 1]`|33.3%|
 
          - 위 예시의 경우 cost value가 2.0, 4.0 인 경우만 Label이 제대로 예측 되었으므로 33.3% 의 Exact Accuracy를 가진다.
+         
+   - Accuracy
+      ![image](https://user-images.githubusercontent.com/74132025/191992732-2acc29e9-e1c8-4c23-a65d-835b968460b4.png)
