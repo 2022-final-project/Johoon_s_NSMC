@@ -61,4 +61,33 @@
 
       |`100100`  &rarr;  [1, 0, 0, 1, 0, 0]|
       |---|
+  
+   - <U>** Modeling 환경 **</U>
 
+     |`Epochs`|200|
+     |`Batch`|16|
+     |`Validation rate`20%|
+     |`Optimizer`|AdamW|
+     |`Learning rate`|2e -5|
+     |---|---|
+
+<br></br>
+6. Accuracy
+   - Accuracy는 두 종류의 Accuracy로 나뉜다.
+     1. Accuracy
+         - 6차원 Target Label 값들 중 예측된 Label의 값과 하나라도 일치가 되면 100% 이다.
+          - Ex)
+
+          |예측 Label|Target Label|Accuracy|
+          |---|---|---|
+          |`[1, 1, 0, 1, 0, 0]`|`[0, 1, 0, 0, 0, 1]`|100%|
+
+     2. Exact Accuracy
+         - 6차원 Target Label 값들과 예측된 Label의 값들을 하나하나 비교한다.
+          - Ex)
+
+          |예측 Label|Target Label|Exact Accuracy|
+          |---|---|---|
+          |`[1, 1, 0, 1, 0, 0]`|`[0, 1, 0, 0, 1, 1]`|33.3%|
+
+         - 위 예시의 경우 cost value가 2.0, 4.0 인 경우만 Label이 제대로 예측 되었으므로 33.3의 Exact Accuracy를 가진다.
