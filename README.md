@@ -70,9 +70,9 @@
      |`Optimizer`|AdamW|
      |`Learning rate`|2e -5|
      |---|---|
-
 <br></br>
-6. Accuracy
+
+6. <U>**2 종류의 Accuracy**</U>
    - Accuracy는 두 종류의 Accuracy로 나뉜다.
      1. Accuracy
          - 6차원 Target Label 값들 중 예측된 Label의 값과 하나라도 일치가 되면 100% 이다.
