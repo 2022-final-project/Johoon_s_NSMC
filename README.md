@@ -92,5 +92,8 @@
 
          - 위 예시의 경우 cost value가 2.0, 4.0 인 경우만 Label이 제대로 예측 되었으므로 33.3% 의 Exact Accuracy를 가진다.
          
-   - Accuracy
-      ![image](https://user-images.githubusercontent.com/74132025/191992732-2acc29e9-e1c8-4c23-a65d-835b968460b4.png)
+   - Accuracy / Exact Accuracy graph
+     |Accuracy|Exact Accuracy|
+     |---|---|
+     |![image](https://user-images.githubusercontent.com/74132025/191992905-fad99f6f-6bbe-461f-9139-2ec9a6280ccf.png)|![image](https://user-images.githubusercontent.com/74132025/191992940-56ec3483-4e65-4aa6-b7ae-c03f1b2f8e78.png)
+|
