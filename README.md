@@ -95,11 +95,9 @@
    - Accuracy / Exact Accuracy graph
      |Accuracy|Exact Accuracy|
      |---|---|
-     |![image](https://user-images.githubusercontent.com/74132025/191992905-fad99f6f-6bbe-461f-9139-2ec9a6280ccf.png)|![image](https://user-images.githubusercontent.com/74132025/191992940-56ec3483-4e65-4aa6-b7ae-c03f1b2f8e78.png)
-|
+     |![image](https://user-images.githubusercontent.com/74132025/191992905-fad99f6f-6bbe-461f-9139-2ec9a6280ccf.png)|![image](https://user-images.githubusercontent.com/74132025/191992940-56ec3483-4e65-4aa6-b7ae-c03f1b2f8e78.png)|
 
    - Loss graph
      |Loss|
      |---|
-     |![image](https://user-images.githubusercontent.com/74132025/191993077-4381f340-37f7-4afa-8c10-ef22d8e6bdfb.png)
-|
+     |![image](https://user-images.githubusercontent.com/74132025/191993077-4381f340-37f7-4afa-8c10-ef22d8e6bdfb.png)|
