@@ -1,3 +1,6 @@
+# [개요]
+PostgreSQL의 공식 문서에 따르면 PosgreSQL은 현재 Query Planning에 관여하는 비용 상수들의 값을 가장 이상적으로 정의할 수 있는 방법이 존재하지 않는다. 이러한 문제점에 기여해 보고자 BERT를 활용하여 입력이 된 SQL Query문을 파악한 뒤 가장 이상적인 비용 상수값을 알려주는 인공지능을 구현한다.
+
 # [S/W 개발 환경]
 * OS : Windows 11
 * IDE : Visual Studio Code
@@ -6,6 +9,7 @@
 <br></br>
 
 # [설명]
+
 1. <U>**TPC-H Benchmark를 이용하여 Database에 대한 Metadata 확보**</U>
    - 확보된 Metadata
      - `8개의 Tables`
@@ -91,13 +95,15 @@
           |`[1, 1, 0, 1, 0, 0]`|`[0, 1, 0, 0, 1, 1]`|33.3%|
 
          - 위 예시의 경우 cost value가 2.0, 4.0 인 경우만 Label이 제대로 예측 되었으므로 33.3% 의 Exact Accuracy를 가진다.
-         
-   - Accuracy / Exact Accuracy graph
-     |Accuracy|Exact Accuracy|
-     |---|---|
-     |![image](https://user-images.githubusercontent.com/74132025/191992905-fad99f6f-6bbe-461f-9139-2ec9a6280ccf.png)|![image](https://user-images.githubusercontent.com/74132025/191992940-56ec3483-4e65-4aa6-b7ae-c03f1b2f8e78.png)|
 
-   - Loss graph
-     |Loss|
-     |---|
-     |![image](https://user-images.githubusercontent.com/74132025/191993077-4381f340-37f7-4afa-8c10-ef22d8e6bdfb.png)|
+    - Accuracy / Exact Accuracy graph
+
+      |Accuracy|Exact Accuracy|
+      |---|---|
+      |![image](https://user-images.githubusercontent.com/74132025/191992905-fad99f6f-6bbe-461f-9139-2ec9a6280ccf.png)|![image](https://user-images.githubusercontent.com/74132025/191992940-56ec3483-4e65-4aa6-b7ae-c03f1b2f8e78.png)|
+
+    - Loss graph
+
+      |Loss|
+      |---|
+      |![image](https://user-images.githubusercontent.com/74132025/191993077-4381f340-37f7-4afa-8c10-ef22d8e6bdfb.png)|
